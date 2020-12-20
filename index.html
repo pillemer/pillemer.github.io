@@ -1,3 +1,156 @@
-<script>alert('This will be the site of my future portfolio page')</script>
+<!DOCTYPE html>
+<html lang="en">
 
-Under construction
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Software Engineer</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="lib/fontello/css/fontello.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container">
+    </header>
+    <main>
+        <div class="container">
+            <div class="lead">
+                <h1 class="lead__heading">Hi, I'm Ariel Pillemer</h1>
+                <div class="lead__sub">
+                    I have seven years’ experience in the hospitality industry working as a hotel manager. Over the last year, I have become a self-taught programmer completing numerous projects in Python and Javascript. I have also completed a Bachelor of Science in Oceanography and Atmospheric Science. I am currently looking to use skills developed over the last year within the tech industry.  
+                </div>
+
+                <div class="call-to-action">
+                    <a href="resume.pdf" target="_blank" class="btn btn--primary btn--lg">Get my resume</a>
+
+                    <div class="socials">
+                        <a class="socials__link" href="github.com/pillemer" target="_blank">
+                            <i class="icon-github-circled"></i>
+                        </a>
+                        <a class="socials__link" href="mailto:pillemer@gmail.com" target="_blank">
+                            <i class="icon-mail-alt"></i>
+                        </a>
+                        <a class="socials__link" href="linkedin.com/in/ariel-pillemer" target="_blank">
+                            <i class="icon-linkedin-squared"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="container project-container">
+            <h1>My Projects</h1>
+            <div class="project">
+                <div class="project__img-container">
+                    <img class="project__img" src="img/combustion.png" alt="Combustion Screenshot">
+                </div>
+                <div class="project__details">
+                    <h2 class="project__name">
+                        Handover
+                    </h2>
+                    <div class="skill-tags">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Flask</div>
+                        <div class="skill-tag">PostgreSQL</div>
+                        <div class="skill-tag">Bootstrap</div>
+                    </div>
+                    <p>
+                        Commissioned to create an online live handover sheet for doctors. 
+                        Allows users to login to view and amend their ward’s job list, assign jobs and update patient information as needed and share this information across all team members. 
+                        Used as a MVP demonstration.
+                        <div>
+                            <a class="btn" href="https://medical-handover.herokuapp.com/" target="_blank">View Project</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project__img-container">
+                    <img class="project__img" src="img/merc-01.png" alt="Merc-01 Screenshot">
+                </div>
+                <div class="project__details">
+                    <h2 class="project__name">
+                        Library
+                    </h2>
+                    <div class="skill-tags">
+                        <div class="skill-tag">JavaScript</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">Less</div>
+                        <div class="skill-tag">Webpack</div>
+                    </div>
+                    <p>
+                        Allows the user to maintain a local archive of their bookshelf where they can keep track of the books they’ve read. Users are able to assign rating, monitor progress and add tags.
+                        <div>
+                            <a class="btn" href="https://pillemer.github.io/odin-library/" target="_blank">View Project</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project__img-container">
+                    <img class="project__img" src="img/merc-01.png" alt="Merc-01 Screenshot">
+                </div>
+                <div class="project__details">
+                    <h2 class="project__name">
+                        Maze Walker
+                    </h2>
+                    <div class="skill-tags">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Pygame</div>
+                    </div>
+                    <p>
+                        A unique maze is generated using a randomized depth first recursive algorithm. User must navigate the maze to its origin. 
+                        A new goal point will then be randomly generated.
+                    <div>
+                            <a class="btn" href="https://github.com/pillemer/maze_walker" target="_blank">View Source Code</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container experience-container">
+            <h1>Experience</h1>
+            <div class="timeline">
+                <div class="timeline__line"></div>
+                <div class="timeline__item">
+                    <div class="experience">
+                        <header class="experience__header">Oct 2018 - Jul 2019</header>
+                        <h2 class="experience__name">
+                            Operations Manager at Native - London
+                        </h2>
+                        <div class="skill-tags">
+                        </div>
+                        <p></p>
+                        <ul>
+                            <li>Managed multiple teams of up to twenty-five staff to ensure smooth day to day operations.</li>
+                            <li>Directed daily morning meetings to set goals and allocate the work for the day.</li>
+                            <li>Responsible for training all new staff members, including training on the company operating systems.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="experience">
+                        <header class="experience__header">Jun 2016 - Jun 2018</header>
+                        <h2 class="experience__name">
+                            Senior Reception staff at Abraham Hostel - Jerusalem
+                        </h2>
+                        <div class="skill-tags">
+                        </div>
+                        <p></p>
+                        <ul>
+                            <li>Delivered quality customer service to potential and existing guests including online bookings.</li>
+                            <li>Daily troubleshooting, including dealing with payments, overbooking and double bookings.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+</div>
+    </main>
+    <footer class='footer'>
+        <h1 class='footer__name'>Ariel Pillemer</h1>
+        <h2 class='footer__title'>Software Engineer</h2>
+        Copyright © Ariel Pillemer
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
